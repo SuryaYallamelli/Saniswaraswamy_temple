@@ -47,12 +47,12 @@ const Confirmdetails = () => {
       <div>
         <button
           onClick={() => {
-            navigate("/Payment", {
-              state: {
-                values: { ...poojaDetails },
-                type: "pooja",
-              },
-            });
+            // navigate("/Payment", {
+            //   state: {
+            //     values: { ...poojaDetails },
+            //     type: "pooja",
+            //   },
+            // });
           }}
           className="btn btn-primary"
         >
