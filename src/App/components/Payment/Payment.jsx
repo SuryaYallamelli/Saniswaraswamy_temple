@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import QR1 from "../../Assets/Images/Scanner_img.jpg";
-// import QR2 from "../../Assets/Images/Scnr.jpg";
-// import QR3 from "../../Assets/Images/qr3.jpeg";
+import QR2 from "../../Assets/Images/Scnr.jpg";
+import QR3 from "../../Assets/Images/qr3.jpeg";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./Payment.css";
 import { saveTransactionId } from "../../Services/saveTransactionService.js";
@@ -59,12 +59,12 @@ const Payment = () => {
         </div>
       )}
       <div className="payment-container">
-        {/* <img
+        <img
           className="paymentQR"
           style={{ width: "300px", height: "300px", marginRight: "50px" }}
           src={location.state.values.paymentType === "pooja" ? QR3 : QR2}
           alt=""
-        /> */}
+        />
         <div className="payment-content">
           <div>Please make your payment using the QR Code</div>
           <div>
@@ -91,8 +91,8 @@ const Payment = () => {
           <button
             className="btn btn-primary button-payment"
             onClick={PaymentHandler}
-            // disabled={transactionId.length !== 6}
-            disabled
+            disabled={transactionId.length !== 6}
+            // disabled
           >
             Submit
           </button>

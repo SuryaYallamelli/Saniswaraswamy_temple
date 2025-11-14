@@ -300,8 +300,8 @@ const OnlineServicesDetails = () => {
         <button
           className="btn btn-primary"
           onClick={initiatePayment}
-          // disabled={!Object.values(pooja_values).every((value) => !!value)}
-          disabled
+          disabled={!Object.values(pooja_values).every((value) => !!value)}
+          // disabled
         >
           Continue
         </button>

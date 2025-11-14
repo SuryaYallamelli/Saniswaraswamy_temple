@@ -226,8 +226,8 @@ const Donations = () => {
         <button
           className="btn btn-primary"
           onClick={initiatePayment}
-          // disabled={!Object.values(donation_values).every((value) => !!value)}
-          disabled
+          disabled={!Object.values(donation_values).every((value) => !!value)}
+          // disabled
         >
           Continue
         </button>

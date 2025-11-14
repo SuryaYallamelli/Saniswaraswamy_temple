@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import edit from "../../Assets/Images/edit.png";
@@ -47,12 +47,12 @@ const Confirmdetails = () => {
       <div>
         <button
           onClick={() => {
-            // navigate("/Payment", {
-            //   state: {
-            //     values: { ...poojaDetails },
-            //     type: "pooja",
-            //   },
-            // });
+            navigate("/Payment", {
+              state: {
+                values: { ...poojaDetails },
+                type: "pooja",
+              },
+            });
           }}
           className="btn btn-primary"
         >
