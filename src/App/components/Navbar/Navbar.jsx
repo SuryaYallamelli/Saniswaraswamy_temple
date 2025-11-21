@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router";
 import { Modal, Offcanvas } from "react-bootstrap";
@@ -114,7 +114,12 @@ const Navbar = () => {
           <h6>News & Updates</h6>
         </div>
 
-        <div className="nav-item">
+        <div
+          className="nav-item"
+          onClick={() => {
+            // navigate("/Gallery");
+          }}
+        >
           <h6>Gallery</h6>
         </div>
 

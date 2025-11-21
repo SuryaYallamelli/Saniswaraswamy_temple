@@ -1,10 +1,11 @@
-import React from "react";
 import "./OnlineServices.css";
 import { useNavigate } from "react-router-dom";
 
 const OnlineServices = () => {
   const navigate = useNavigate();
-
+  const clickHandle = () => {
+    navigate("/QrPay");
+  };
   return (
     <div>
       <div className="Online_services_title">Online Services</div>
@@ -23,14 +24,7 @@ const OnlineServices = () => {
                 మాత్రమే. ₹ 36,000/- (ఈ సం||తో కలిపి)
               </p>
             </div>
-            <button
-              onClick={() => {
-                navigate("/OnlineServicesDetails", {
-                  state: { type: "YekadasaRudratailabishekam" },
-                });
-              }}
-              className="card-button"
-            >
+            <button onClick={clickHandle} className="card-button">
               Book Now
             </button>
           </div>
@@ -51,14 +45,7 @@ const OnlineServices = () => {
                 మాత్రమే. ₹ 30,000/- (ఈ సం||తో కలిపి)
               </p>
             </div>
-            <button
-              onClick={() => {
-                navigate("/OnlineServicesDetails", {
-                  state: { type: "Mahanyasapurvaka" },
-                });
-              }}
-              className="card-button"
-            >
+            <button onClick={clickHandle} className="card-button">
               Book Now
             </button>
           </div>
@@ -69,14 +56,7 @@ const OnlineServices = () => {
             <div className="card-description">
               <p>1 సారి పూజకు ₹ 8,000/-</p>
             </div>
-            <button
-              onClick={() => {
-                navigate("/OnlineServicesDetails", {
-                  state: { type: "Sanijapam" },
-                });
-              }}
-              className="card-button"
-            >
+            <button onClick={clickHandle} className="card-button">
               Book Now
             </button>
           </div>
@@ -87,14 +67,7 @@ const OnlineServices = () => {
             <div className="card-description">
               <p>1 సారి పూజకు ₹ 1,500/-</p>
             </div>
-            <button
-              onClick={() => {
-                navigate("/OnlineServicesDetails", {
-                  state: { type: "SaniSanthi" },
-                });
-              }}
-              className="card-button"
-            >
+            <button onClick={clickHandle} className="card-button">
               Book Now
             </button>
           </div>

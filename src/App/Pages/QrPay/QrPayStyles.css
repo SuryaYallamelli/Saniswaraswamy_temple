@@ -1,0 +1,123 @@
+.qr-container {
+  font-family: "Noto Sans Telugu", sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+.qr-header {
+  text-align: center;
+  padding: 20px 10px;
+  background: maroon;
+  color: #fff;
+}
+
+.qr-header-title {
+  margin: 0;
+  font-size: 32px;
+}
+
+.qr-header-sub {
+  margin: 5px 0 0;
+  font-size: 22px;
+}
+
+.qr-section {
+  text-align: center;
+  padding: 10px;
+}
+
+.qr-section-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.qr-section-sub {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #444;
+}
+
+.qr-card,
+.qr-payment-card {
+  background: white;
+  margin: 12px;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.qr-category {
+  font-size: 32px;
+  margin: 0 0 12px;
+}
+
+.qr-red {
+  color: #800000;
+}
+
+.qr-green {
+  color: #007500;
+}
+
+.qr-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.qr-cell {
+  padding: 8px;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+.shani-cell {
+  max-width: 400px;
+}
+.qr-head {
+  background: #f3f3f3;
+  font-weight: bold;
+  color: #222;
+}
+
+.qr-payment-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.qr-payment-img {
+  width: 200px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+.qr-payment-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.qr-steps {
+  margin-top: 15px;
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+.qr-step {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.qr-footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 20px;
+}
+
+.qr-footer-title {
+  margin: 0;
+}
+
+.qr-footer-ac {
+  margin: 5px 0 0;
+}

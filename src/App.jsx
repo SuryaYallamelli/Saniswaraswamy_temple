@@ -19,6 +19,8 @@ import PrivacyPolicy from "./App/Pages/PrivacyPolicy/PrivacyPolicy";
 import TermsAndConditions from "./App/Pages/TermsAndConditions/TermsAndConditions";
 import CancellationAndRefund from "./App/Pages/Cancellation&Refund/CancellationsAndRefund";
 import PageNotFound from "./App/Pages/pageNotFound/PageNotFound";
+import QrPay from "./App/Pages/QrPay/QrPay";
+import Gallery from "./App/Pages/Gallery/Gallery";
 
 const App = () => {
   return (
@@ -48,6 +50,8 @@ const App = () => {
             path="/CancellationAndRefund"
             element={<CancellationAndRefund />}
           />
+          <Route path="/QrPay" element={<QrPay />} />
+          <Route path="/Gallery" element={<Gallery />} />
           <Route path="/PageNotFound" element={<PageNotFound />} />
           <Route path="*" element={<Navigate replace to="/PageNotFound" />} />
         </Routes>
