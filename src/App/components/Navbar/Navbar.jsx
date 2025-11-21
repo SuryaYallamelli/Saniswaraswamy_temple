@@ -117,7 +117,7 @@ const Navbar = () => {
         <div
           className="nav-item"
           onClick={() => {
-            // navigate("/Gallery");
+            navigate("/Gallery");
           }}
         >
           <h6>Gallery</h6>

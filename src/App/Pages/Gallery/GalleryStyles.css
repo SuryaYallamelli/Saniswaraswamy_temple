@@ -35,6 +35,10 @@
   overflow: hidden;
   padding: 10px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 300px;
 }
 
 .gallery-item img,
@@ -90,6 +94,7 @@
   cursor: pointer;
   font-size: 28px;
   color: #fff;
+  z-index: 100000;
 }
 
 /* Popup media */
@@ -98,4 +103,8 @@
   height: auto;
   border-radius: 8px;
   object-fit: contain;
+}
+
+.gallery-modal-media-image {
+  max-height: 75vh;
 }

@@ -115,7 +115,7 @@ const Gallery = () => {
               <img
                 src={preview.src}
                 alt="preview"
-                className="gallery-modal-media"
+                className="gallery-modal-media gallery-modal-media-image"
               />
             )}
 
