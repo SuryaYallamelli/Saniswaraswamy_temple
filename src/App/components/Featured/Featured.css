@@ -1,95 +1,93 @@
 .featured-container {
-    background-color: var(--color-dark);
-    background-image: url(../../Assets/Images/shani.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: 700px;
-    background-blend-mode: lighten;
-    color: white;
-    display: flex;
-    padding: 25px 35px;
-    margin: 40px 0;
-    margin-bottom: 5 0px;
-    font-family: var(--font-telugu);
-    font-size: 1.2rem;
-    max-height: 900px;
-    justify-content: space-evenly;
+  background-color: var(--color-dark);
+  /* background-image: url(../../Assets/Images/shani.png); */
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 700px;
+  background-blend-mode: lighten;
+  color: white;
+  display: flex;
+  padding: 25px 35px;
+  margin: 40px 0;
+  margin-bottom: 5 0px;
+  font-family: var(--font-telugu);
+  font-size: 1.2rem;
+  max-height: 900px;
+  justify-content: space-evenly;
 }
 
 .featured-left {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 .featured-right ul {
-    margin: 0 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 50px;
-    width: 100%;
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 50px;
+  width: 100%;
 }
 
-.featured-purnami {}
-
 .featured-amavasya {
-    list-style: circle;
+  list-style: circle;
 }
 
 .featured-amavasya::marker,
 .featured-purnami::marker {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .featured-button {
-    text-align: center;
-    margin: 0 10%;
-    width: auto;
-    height: 50px;
-    border: 0;
-    border-radius: 5px;
-    background-color: var(--color-secondary);
-    color: white;
-    font-family: var(--font-english);
-    font-weight: 600;
-    margin: 25px 0;
+  text-align: center;
+  margin: 0 10%;
+  width: auto;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--color-secondary);
+  color: white;
+  font-family: var(--font-english);
+  font-weight: 600;
+  margin: 25px 0;
 }
 
 .featured-button:hover {
-    background-color: var(--color-secondary-dark)
+  background-color: var(--color-secondary-dark);
 }
 
 .featured-button:active {
-    background-color: var(--color-secondary-light);
-    color: var(--color-dark);
+  background-color: var(--color-secondary-light);
+  color: var(--color-dark);
 }
 
 .featured-legend {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .featured-left-heading {
-    font-weight: 800;
-    font-size: 1.8rem;
-    margin: 10px 0;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
-    .featured-container {
-        background-position-x: right;
-        background-size: 100%;
-    }
+  .featured-container {
+    background-position-x: right;
+    background-size: 100%;
+  }
 }
 
-@media screen  and (max-width: 500px) {
-    .featured-container {
-        background-size: 200%;
-        height: 900;
-        display: flex;
-        flex-direction: column;
-        background-position: -180px 400px;
-        margin: 20px 0px;
-        overflow: hidden;
-    }
-    .featured-right ul {
-       font-size: medium;
-    }
+@media screen and (max-width: 500px) {
+  .featured-container {
+    background-size: 200%;
+    height: 900;
+    display: flex;
+    flex-direction: column;
+    background-position: -180px 400px;
+    margin: 20px 0px;
+    overflow: hidden;
+  }
+  .featured-right ul {
+    font-size: medium;
+  }
 }

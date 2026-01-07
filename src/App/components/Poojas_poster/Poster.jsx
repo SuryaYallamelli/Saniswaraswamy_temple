@@ -5,7 +5,7 @@ import "./Poster.css";
 
 const Poster = () => {
   return (
-    <div>
+    <div id="poster-container">
       <div className="poster-section">
         <div className="poster-left">
           <div className="poster-section-title">భక్తులకు విజ్ఞప్తి</div>

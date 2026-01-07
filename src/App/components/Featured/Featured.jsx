@@ -1,4 +1,3 @@
-import React from "react";
 import "./Featured.css";
 function Featured() {
   return (
@@ -11,18 +10,18 @@ function Featured() {
         స్కంధపురాణంలో చెప్పబడింది. కావున భక్తులు "శని" వలన కలిగే సర్వదోషాలు
         నివృత్తి కావాలని తైలాభిషేకం నిర్వహించి ఆయురారోగ్యాలతో వర్ధిల్లాలని మనవి.
         <br />
-        <button className="featured-button">Register Now</button>
+        {/* <button className="featured-button">Register Now</button> */}
       </div>
       <div className="featured-right">
         <ul>
-          <li className="featured-purnami">17-08-2024</li>
-          <li className="featured-amavasya">31-08-2024</li>
-          <li className="featured-amavasya">28-12-2024</li>
-          <li className="featured-purnami">11-01-2025</li>
-          <li className="featured-purnami">26-04-2025</li>
-          <li className="featured-purnami">10-05-2025</li>
-          <li className="featured-amavasya">24-05-2025</li>
-          <li className="featured-purnami">04-10-2025</li>
+          <li className="featured-purnami">31-10-2026</li>
+          <li className="featured-amavasya">14-02-2026</li>
+          <li className="featured-amavasya">13-06-2026</li>
+          <li className="featured-purnami">27-06-2026</li>
+          <li className="featured-purnami">24-10-2026</li>
+          <li className="featured-purnami">07-11-2026</li>
+          {/* <li className="featured-amavasya">24-05-2025</li>
+          <li className="featured-purnami">04-10-2025</li> */}
         </ul>
         <br />
         <ul className="featured-legend">

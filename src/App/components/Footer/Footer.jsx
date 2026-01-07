@@ -57,7 +57,7 @@ function Footer() {
         <div className="contactus-item">aceomandapalli@gmail.com</div>
         <div className="contactus-item">
           POBOX 154-2 Mandapalli, Kothapeta, DR. B. R. Ambedkar
-          Konaseema District, Andhra Pradesh 5333 223
+          Konaseema District, Andhra Pradesh 533 223
         </div>
       </div>
       <div className="footer-right">

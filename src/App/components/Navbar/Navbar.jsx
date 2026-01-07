@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router";
 import { Modal, Offcanvas } from "react-bootstrap";
@@ -79,22 +79,22 @@ const Navbar = () => {
         >
           <h6>About Temple</h6>
         </div>
-        <div
+        {/* <div
           onClick={() => {
             navigate("/Sevas");
           }}
           className="nav-item"
         >
           <h6>Sevas & Darshanam</h6>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           onClick={() => {
             navigate("/Donations");
           }}
           className="nav-item"
         >
           <h6>Donations</h6>
-        </div>
+        </div> */}
 
         <div
           onClick={() => {
@@ -105,14 +105,14 @@ const Navbar = () => {
           <h6>Online Services</h6>
         </div>
 
-        <div
+        {/* <div
           onClick={() => {
             navigate("/News");
           }}
           className="nav-item"
         >
           <h6>News & Updates</h6>
-        </div>
+        </div> */}
 
         <div
           className="nav-item"
@@ -123,9 +123,9 @@ const Navbar = () => {
           <h6>Gallery</h6>
         </div>
 
-        <div className="nav-item">
+        {/* <div className="nav-item">
           <h6>Support</h6>
-        </div>
+        </div> */}
         {!loggedin ? (
           <div className="nav-item nav-signup" onClick={loginModalToggle}>
             <h6>Signin</h6>
@@ -252,7 +252,7 @@ const Navbar = () => {
           >
             <h6>About Temple</h6>
           </div>
-          <div
+          {/* <div
             onClick={() => {
               setMenuShow(!menuShow);
               navigate("/Sevas");
@@ -260,8 +260,8 @@ const Navbar = () => {
             className="nav-menu-item"
           >
             <h6>Sevas & Darshanam</h6>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             onClick={() => {
               setMenuShow(!menuShow);
               navigate("/Donations");
@@ -269,7 +269,7 @@ const Navbar = () => {
             className="nav-menu-item"
           >
             <h6>Donations</h6>
-          </div>
+          </div> */}
 
           <div
             onClick={() => {
@@ -281,7 +281,7 @@ const Navbar = () => {
             <h6>Online Services</h6>
           </div>
 
-          <div
+          {/* <div
             onClick={() => {
               setMenuShow(!menuShow);
               navigate("/News");
@@ -289,15 +289,15 @@ const Navbar = () => {
             className="nav-menu-item"
           >
             <h6>News & Updates</h6>
-          </div>
+          </div> */}
 
           <div className="nav-menu-item">
             <h6>Gallery</h6>
           </div>
 
-          <div className="nav-menu-item">
+          {/* <div className="nav-menu-item">
             <h6>Support</h6>
-          </div>
+          </div> */}
           {!loggedin ? (
             <div
               className="nav-menu-item nav-signup"
