@@ -14,7 +14,7 @@ function Featured() {
       </div>
       <div className="featured-right">
         <ul>
-          <li className="featured-purnami">31-10-2026</li>
+          <li className="featured-purnami">31-01-2026</li>
           <li className="featured-amavasya">14-02-2026</li>
           <li className="featured-amavasya">13-06-2026</li>
           <li className="featured-purnami">27-06-2026</li>
