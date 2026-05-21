@@ -1,6 +1,6 @@
 import React from "react";
 import CarouselComponent from "../../components/Carousel/CarouselComponent";
-// import Scrollingtxt from "../../components/Scrolling_text/Scrollingtxt";
+import Scrollingtxt from "../../components/Scrolling_text/Scrollingtxt";
 import Poojas from "../../components/Poojas/Poojas";
 import YoutubeSection from "../../components/YoutubeSection/YoutubeSection";
 import Annadanam from "../../components/Annadanam/Annadanam";
@@ -12,13 +12,15 @@ import "./Home.css";
 import Featured from "../../components/Featured/Featured";
 import Poster from "../../components/Poojas_poster/Poster";
 // import VideoSection from "../../components/Video/VideoSection";
+import TempleTimings from "../TempleTimings/TempleTimings";
 
 const Home = () => {
   return (
     <div>
+       <Scrollingtxt />
       <CarouselComponent />
-      {/* <Scrollingtxt />
-      <Teluguscrollingtxt /> */}
+      <TempleTimings />
+      {/*<Teluguscrollingtxt /> */}
 
       {/* <VideoSection /> */}
       {/* <div className="updates-section">

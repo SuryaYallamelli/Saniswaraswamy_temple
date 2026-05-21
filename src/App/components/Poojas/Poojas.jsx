@@ -1,10 +1,13 @@
 import "./Poojas.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function Poojas() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const clickHandle = () => {
-    navigate("/QrPay");
+                window.open(
+                  "https://www.aptemples.org/en-in/temples/SMSTMDP/aboutTemple",
+                  "_blank",
+                );
   };
 
   return (
