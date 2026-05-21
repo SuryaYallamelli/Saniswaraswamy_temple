@@ -42,13 +42,17 @@ th {
   border: 2px solid white;
   padding: 5px;
   max-width: 170px;
+  color: white;
   /* overflow-x: scroll; */
 }
 
 th {
   color: yellow;
 }
-
+table td:first-child {
+    font-weight: 600;
+    color: white !important;
+}
 /* table {
     overflow-x: scroll;
 } */
