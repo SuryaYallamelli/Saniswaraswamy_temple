@@ -10,7 +10,7 @@ const TempleTimings = () => {
       <div className="timings-wrapper">
         {/* Left Section */}
         <div className="timing-card">
-          <h2>Pratishta (Main) Temple Darshan Timings</h2>
+          <h2>Temple Darshan Timings</h2>
 
           <h3>Normal Days Darshanam</h3>
 
