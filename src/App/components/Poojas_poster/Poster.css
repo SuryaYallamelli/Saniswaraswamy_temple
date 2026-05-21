@@ -49,7 +49,10 @@ th {
 th {
   color: yellow;
 }
-
+table td:first-child {
+    font-weight: 600;
+    color: white !important;
+}
 /* table {
     overflow-x: scroll;
 } */
