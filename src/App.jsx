@@ -21,6 +21,7 @@ import CancellationAndRefund from "./App/Pages/Cancellation&Refund/Cancellations
 import PageNotFound from "./App/Pages/pageNotFound/PageNotFound";
 import QrPay from "./App/Pages/QrPay/QrPay";
 import Gallery from "./App/Pages/Gallery/Gallery";
+import TempleTimings from "./App/Pages/TempleTimings/TempleTimings";
 
 const App = () => {
   return (
@@ -53,6 +54,7 @@ const App = () => {
           <Route path="/QrPay" element={<QrPay />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/PageNotFound" element={<PageNotFound />} />
+          <Route path="/TempleTimings" element={<TempleTimings />} />
           <Route path="*" element={<Navigate replace to="/PageNotFound" />} />
         </Routes>
         <Footer />

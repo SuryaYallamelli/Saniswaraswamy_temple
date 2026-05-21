@@ -1,10 +1,13 @@
 import "./OnlineServices.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const OnlineServices = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const clickHandle = () => {
-    navigate("/QrPay");
+                window.open(
+                  "https://www.aptemples.org/en-in/temples/SMSTMDP/aboutTemple",
+                  "_blank",
+                );
   };
   return (
     <div>

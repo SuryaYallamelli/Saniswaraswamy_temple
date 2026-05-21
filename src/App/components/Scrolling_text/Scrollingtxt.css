@@ -4,7 +4,7 @@
     font-weight: bold;
     position: relative;
     background-color: var(--color-primary);
-    color: black;
+    color: rgb(121, 5, 5);
 }
 
 .scroll-left p {
