@@ -38,44 +38,44 @@ const Poster = () => {
             </thead>
             <tbody>
               <tr>
-                <td>ఏకాదశ రుద్రతైలాభిషేకం</td>
-                <td>రూ||600/-</td>
-                <td>
+                <td className="poster-td">ఏకాదశ రుద్రతైలాభిషేకం</td>
+                <td className="poster-td">రూ||600/-</td>
+                <td className="poster-td">
                   రూ||6,000/- <br />
                   (ఈ సం||తో కలిపి)
                 </td>
-                <td>రూ||31,200/-</td>
-                <td>
+                <td className="poster-td">రూ||31,200/-</td>
+                <td className="poster-td">
                   రూ||36,000/- <br />
                   (ఈ సం||తో కలిపి)
                 </td>
               </tr>
               <tr>
-                <td>
+                <td className="poster-td">
                   మహాన్యాసపూర్వక <br /> ఏకవార రుద్రతైలాభిషేకం
                 </td>
-                <td>రూ||400/-</td>
-                <td>
+                <td className="poster-td">రూ||400/-</td>
+                <td className="poster-td">
                   రూ||5,000/- <br /> (ఈ సం||తో కలిపి)
                 </td>
-                <td>రూ||20,800/-</td>
-                <td>
+                <td className="poster-td">రూ||20,800/-</td>
+                <td className="poster-td">
                   రూ||30,000/- <br /> (ఈ సం||తో కలిపి)
                 </td>
               </tr>
               <tr>
-                <td>శని జపం</td>
-                <td>రూ||8,000/-</td>
-                <td colSpan={3}>
+                <td className="poster-td">శని జపం</td>
+                <td className="poster-td">రూ||8,000/-</td>
+                <td colSpan={3} className="poster-td">
                   స్వయం గా రాలేని వారి శని జపం రూ||19,000/-, తర్పణములు
                   రూ||4000/- ; తైలాభిషేకం మరియు హోమసామగ్రి తో కలిపి శనివారం
                   మొదలు పెట్టి, మారలా శనివారం వరకు.
                 </td>
               </tr>
               <tr>
-                <td>శని శాంతి హోమం</td>
-                <td>రూ||1,500/-</td>
-                <td colSpan={3}></td>
+                <td className="poster-td">శని శాంతి హోమం</td>
+                <td className="poster-td">రూ||1,500/-</td>
+                <td colSpan={3} className="poster-td"></td>
               </tr>
             </tbody>
           </table>
