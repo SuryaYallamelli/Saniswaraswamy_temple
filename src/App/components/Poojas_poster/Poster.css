@@ -49,7 +49,7 @@ th {
 th {
   color: yellow;
 }
-table td:first-child {
+.poster-td {
     font-weight: 600;
     color: white !important;
 }
