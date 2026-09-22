@@ -59,6 +59,12 @@ const Navbar = () => {
     const { name, value } = e.target;
     setLoginValues({ ...loginValues, [name]: value });
   }
+  const clickHandle = () => {
+    window.open(
+      "https://tms.ap.gov.in/#/temple-details/MDSMPL?section=seva",
+      "_blank",
+    );
+  };
   return (
     <div className="outerContainer">
       <div className="Navbar prevent-select">
@@ -98,7 +104,7 @@ const Navbar = () => {
 
         <div
           onClick={() => {
-            navigate("/OnlineServices");
+            clickHandle();
           }}
           className="nav-item"
         >
