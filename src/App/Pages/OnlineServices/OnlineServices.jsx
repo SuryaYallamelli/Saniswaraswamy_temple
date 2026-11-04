@@ -4,10 +4,10 @@ import "./OnlineServices.css";
 const OnlineServices = () => {
   // const navigate = useNavigate();
   const clickHandle = () => {
-                window.open(
-                  "https://www.aptemples.org/en-in/temples/SMSTMDP/aboutTemple",
-                  "_blank",
-                );
+    window.open(
+      "https://tms.ap.gov.in/#/temple-details/MDSMPL?section=seva",
+      "_blank",
+    );
   };
   return (
     <div>
